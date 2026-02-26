@@ -1,0 +1,1384 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>BYJ's</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- <div class="bg_wrap"></div> -->
+
+    <section class="hero">
+      <div class="header_outer">
+        <header class="header" id="header">
+          <div class="LogoName">BYJ's</div>
+          <ul class="gnb">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills">Skils</a>
+            </li>
+            <li>
+              <a href="#projects">Project</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+
+      <div class="inner">
+        <div class="main_page">
+          <p class="title">Web Portfolio</p>
+          <p class="name">by Yun Ju</p>
+        </div>
+      </div>
+      <div class="bubbles aboutBubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="fishingSet">
+        <div class="fishline"></div>
+        <div class="sail" id="sail">
+          <img src="./images/moth.png" alt="돛 이미지" />
+          <span class="topText">TOP</span>
+        </div>
+        <div class="topBtn AboutBtn" data-target="about">
+          <img src="./images/seaStar.png" alt="About메뉴" />
+          <span class="btnText">About</span>
+        </div>
+        <div class="topBtn SkilsBtn" data-target="skills">
+          <img src="./images/seaStar.png" alt="Skills메뉴" />
+          <span class="btnText">Skills</span>
+        </div>
+        <div class="topBtn ProjectsBtn" data-target="projects">
+          <img src="./images/seaStar.png" alt="Projects메뉴" />
+          <span class="btnText">Projects</span>
+        </div>
+        <div class="topBtn ContactBtn" data-target="contact">
+          <img src="./images/seaStar.png" alt="Contact메뉴" />
+          <span class="btnText">Contact</span>
+        </div>
+      </div>
+      <div class="inner">
+        <div class="aboutBox">
+          <h1>About</h1>
+          <div class="about_contents">
+            <div class="left_pic">
+              <img src="./images/temp_pic.jpg" alt="프로필 사진" />
+            </div>
+            <div class="right_info">
+              <p class="intro">
+                안녕하세요! 사용자 경험 중심의 인터페이스 구현에 흥미를 가진
+                개발 지망생 배윤주입니다. 현재 프론트엔드 프로젝트와 디자인
+                퍼블리싱을 경험하며 실무 감각을 쌓고 있으며 새로운 기술을 배우고
+                문제를 해결하는 과정을 즐기며, 프로젝트를 통해 성장하고자
+                합니다.
+              </p>
+              <div class="introBox">
+                <div class="line">
+                  <i class="fa-solid fa-anchor"></i>
+                  <span class="tag">Name:</span>
+                  <span class="word">배윤주</span>
+                </div>
+                <div class="line">
+                  <i class="fa-solid fa-fish"></i>
+                  <span class="tag">Birth:</span>
+                  <span class="word">1994.06.22</span>
+                </div>
+                <div class="line">
+                  <i class="fa-solid fa-anchor"></i>
+                  <span class="tag">Email:</span>
+                  <span class="word">byj622@naver.com</span>
+                </div>
+                <div class="line">
+                  <i class="fa-solid fa-fish"></i>
+                  <span class="tag">Call:</span>
+                  <span class="word">010-3001-7643</span>
+                </div>
+                <div class="line">
+                  <div class="leftWords">
+                    <i class="fa-solid fa-anchor"></i>
+                    <span class="tag">Education:</span>
+                  </div>
+                  <div class="moreWords">
+                    <p class="word">
+                      그린아카데미 UI/UX & 프론트엔드 개발자 양성 수료(2025.09 -
+                      2025.03)
+                    </p>
+                    <p class="word">
+                      경주대학교 호텔경영학과(2014.03 - 2017.02)
+                    </p>
+                    <p class="word">두호고등학교(2010.03 - 2014.02)</p>
+                  </div>
+                </div>
+                <div class="line">
+                  <div class="leftWords">
+                    <i class="fa-solid fa-fish"></i>
+                    <span class="tag">Career:</span>
+                  </div>
+                  <div class="moreWords">
+                    <p class="word">세븐일레븐, CU(2021.05 - 현재)</p>
+                    <p class="word">
+                      파인그로브 호텔 프론트 데스크 사원(2017.01 - 2020.02)
+                    </p>
+                  </div>
+                </div>
+                <div class="line">
+                  <div class="leftWords">
+                    <i class="fa-solid fa-anchor"></i>
+                    <span class="tag">Certificate:</span>
+                  </div>
+                  <div class="moreWords">
+                    <span cla사s="word">정보처리 기사</span>
+                    <p class="word">GTQ 1급</p>
+                    <p class="word">컴퓨터활용 2급</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="aboutFishWrapper">
+        <div class="fishGroup fishes01">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes02">
+          <div class="fish fish3">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish4">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish5">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes03">
+          <div class="fish fish6">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish7">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish8">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes04">
+          <div class="fish fish9">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish10">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish11">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes05">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes06">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes07">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes08">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes09">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes10">
+          <div class="fish fish9">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish10">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish11">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes11">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes12">
+          <div class="fish fish6">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish7">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish8">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes13">
+          <div class="fish fish9">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish10">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish11">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+      </div>
+      <div class="bubbles aboutBubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="bubbles aboutBubble2">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="whale whale01">
+        <img src="./images/whale.png" alt="고래 이미지" />
+      </div>
+      <div class="inner">
+        <h1>Skills</h1>
+        <div class="skillsBox">
+          <div class="allSkills">
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill01.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  구조 설계 및 레이아웃 , 반응형 구현 가능합니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill02.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  레이아웃 설계 및 반응형 스타일 구현 가능합니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill03.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  이벤트 처리 및 간단 UI 인터랙션 구현 가능합니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill04.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-sailboat"></i>
+                </div>
+                <p class="experience">
+                  DOM 제어 및 이벤트 기반 인터랙션, API 가정 환경에서
+                  페이지네이션 및 필터링 구현 경험 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill05.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  이미지 보정 및 간단한 누끼 작업,상세 페이지 구조 이해 및 기본
+                  편집 가능합니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill06.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">기본 도형 및 펜툴 활용 가능합니다.</p>
+              </div>
+            </div>
+          </div>
+          <div class="allSkills">
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill07.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-sailboat"></i>
+                </div>
+                <p class="experience">
+                  컴포넌트 단위 UI 구성 및 간단한 상태 관리 구현 가능, 프로젝트
+                  경험 보유하고 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill08.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-sailboat"></i>
+                </div>
+                <p class="experience">
+                  리액트 프로젝트에서 전역 상태 관리 이해 및 구현 경험 보유하고
+                  있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill09.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-sailboat"></i>
+                </div>
+                <p class="experience">
+                  React 프로젝트 실행 및 환경 설정 경험 보유하고 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill10.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-sailboat"></i>
+                </div>
+                <p class="experience">
+                  기본 명령어(add, commit, push, pull) 활용 가능, 버전 관리 경험
+                  보유하고 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill11.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  기본 테이블 생성 및 데이터 조회 학습 경험이 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill12.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  기획 및 시안 작성 경험 보유하고 있습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="allSkills">
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill13.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  슬라이드 기능 구현 및 커스텀 조작 경험 보유하고 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill14.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  기본 애니메이션 및 스크롤 반응형 기능 구현 경험 보유하고
+                  있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill15.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                </div>
+                <p class="experience">
+                  기본 레이아웃 적용 및 컴포넌트 활용 경험 있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill16.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-sailboat"></i>
+                </div>
+                <p class="experience">
+                  이미지 반복 처리, 함수/모듈 import 활용 경험 보유하고
+                  있습니다.
+                </p>
+              </div>
+            </div>
+            <div class="skillsList">
+              <div class="skillsItem">
+                <div class="skil_img">
+                  <img src="./images/skill17.png" alt="스킬 이미지01" />
+                </div>
+              </div>
+              <div class="skill_text">
+                <div class="skil_icon">
+                  <i class="fa-solid fa-anchor"></i>
+                  <i class="fa-solid fa-sailboat"></i>
+                </div>
+                <p class="experience">
+                  이벤트 처리 및 간단 UI 인터랙션 구현 가능합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="aboutFishWrapper skillsFishWrapper">
+        <div class="fishGroup fishes01">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes02">
+          <div class="fish fish3">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish4">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish5">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes03">
+          <div class="fish fish6">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish7">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish8">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes04">
+          <div class="fish fish9">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish10">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish11">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes05">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes06">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes07">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes08">
+          <div class="fish fish3">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish4">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish5">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes09">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes10">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes11">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes12">
+          <div class="fish fish9">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish10">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish11">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+      </div>
+      <div class="bubbles skillBubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="bubbles skillBubble2">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="whale whale02">
+        <img src="./images/whale.png" alt="고래 이미지" />
+      </div>
+      <div class="inner">
+        <div class="projectsBox">
+          <h1>Projects</h1>
+          <div class="listBox list01 active">
+            <div class="siteItem">
+              <div class="left_pic picPro01"></div>
+              <div class="right_txt">
+                <h2>펫쇼핑몰 사이트 (개인)</h2>
+                <div class="txtBox">
+                  <span class="leftTag">기획기간:</span>
+                  <span class="rightTxt">PC 2달 / 모바일 3일</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">코딩기간:</span>
+                  <span class="rightTxt">PC 1달 / 모바일 7일</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">제작툴:</span>
+                  <span class="rightTxt">HTML/CSS/Jquery/Javascript/Slick</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">주요 구현:</span>
+                  <div class="moreBox">
+                    <span class="rightTxt"
+                      >(PC)클릭 이미지변경/슬라이드/필터링/수량버튼/
+                    </span>
+                    <p>로그인/회원가입/리뷰&문의 작성</p>
+                    <p>
+                      (모바일)카테고리 분류버튼/API 환경을 가정한 페이지네이션
+                      기눙 구현
+                    </p>
+                    <p>스크롤 구매버튼 노출</p>
+                  </div>
+                </div>
+                <ul class="buttonList">
+                  <li>
+                    <a href="#!">PC</a>
+                  </li>
+                  <li>
+                    <a href="#!">Mobile</a>
+                  </li>
+                  <li>
+                    <a href="#!">Git</a>
+                  </li>
+                  <li>
+                    <a href="#!">기획</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--프로젝트01-->
+            <div class="siteItem">
+              <div class="left_pic picPro02"></div>
+              <div class="right_txt">
+                <h2>할리스 리뉴얼 반응형 사이트(개인/팀)</h2>
+                <div class="txtBox">
+                  <span class="leftTag">기획기간:</span>
+                  <span class="rightTxt">1달</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">코딩기간:</span>
+                  <span class="rightTxt">14일</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">제작툴:</span>
+                  <span class="rightTxt">HTML/CSS/Sass/Javascript/Gsap</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">주요 구현:</span>
+                  <div class="moreBox">
+                    <span class="rightTxt"
+                      >반응형 가로 스크롤/반응형 스크롤버튼/슬라이드/필터링
+                    </span>
+                    <p>반응형 스크롤 구매 선물버튼</p>
+                  </div>
+                </div>
+                <ul class="buttonList buttonList02">
+                  <li>
+                    <a href="#!">PC/Mobile</a>
+                  </li>
+                  <li>
+                    <a href="#!">Git</a>
+                  </li>
+                  <li>
+                    <a href="#!">기획</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--프로젝트02-->
+          </div>
+          <div class="listBox list02">
+            <div class="siteItem">
+              <div class="left_pic picPro03"></div>
+              <div class="right_txt">
+                <h2>카름스테이 리액트 숙박 리뉴얼 사이트 (개인)</h2>
+                <div class="txtBox">
+                  <span class="leftTag">기획기간:</span>
+                  <span class="rightTxt">7일 </span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">코딩기간:</span>
+                  <span class="rightTxt">16일</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">제작툴:</span>
+                  <span class="rightTxt"
+                    >React/Commponent-styled/Router/Hooks/LocalStorage API</span
+                  >
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">주요 구현:</span>
+                  <div class="moreBox">
+                    <span class="rightTxt">
+                      마을숙소 리스트, 예약일정 조회 등 결제기능 구현
+                    </span>
+                    <p>숙소 페이지 UI 및 컴포넌트 구조 설계</p>
+                    <p>객실 선택 및 원데이 클래스 추가 옵션 기능 구현</p>
+                    <p>
+                      map 기반 동적 리스트 렌더링 (rooms, experiences, reviews
+                      등)
+                    </p>
+                    <p>결제 버튼 클릭 시 결제 완료 화면 조건부 렌더링 처리</p>
+                  </div>
+                </div>
+                <ul class="buttonList">
+                  <li>
+                    <a href="#!">PC</a>
+                  </li>
+                  <li>
+                    <a href="#!">Git</a>
+                  </li>
+                  <li>
+                    <a href="#!">기획</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--프로젝트03-->
+            <div class="siteItem">
+              <div class="left_pic picPro04"></div>
+              <div class="right_txt">
+                <h2>써브웨이 리액트 키오스크 (개인)</h2>
+                <div class="txtBox">
+                  <span class="leftTag">기획기간:</span>
+                  <span class="rightTxt">4-5일</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">코딩기간:</span>
+                  <span class="rightTxt">7일</span>
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">제작툴:</span>
+                  <span class="rightTxt"
+                    >React/Redux/ToolKit/Router/Commponent-styled</span
+                  >
+                </div>
+                <div class="txtBox">
+                  <span class="leftTag">주요 구현:</span>
+                  <div class="moreBox">
+                    <span class="rightTxt">메뉴 카테고리 컴포넌트 렌더링 </span>
+                    <p>장바구니 수량조절 가격 합산 기능</p>
+                    <p>서브메뉴, 추가메뉴 확인 컴포넌트 설계</p>
+                  </div>
+                </div>
+                <ul class="buttonList buttonList02">
+                  <li>
+                    <a href="#!">PC</a>
+                  </li>
+                  <li>
+                    <a href="#!">Git</a>
+                  </li>
+                  <li>
+                    <a href="#!">기획</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--프로젝트04-->
+          </div>
+          <i class="fa-solid fa-chevron-right nextBtn"></i>
+        </div>
+      </div>
+      <div class="aboutFishWrapper projectsFishWrapper">
+        <div class="fishGroup fishes01">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes02">
+          <div class="fish fish3">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish4">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish5">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes03">
+          <div class="fish fish6">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish7">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish8">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes04">
+          <div class="fish fish9">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish10">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish11">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes05">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes06">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes07">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes08">
+          <div class="fish fish3">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish4">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish5">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes09">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes10">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes11">
+          <div class="fish fish9">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish10">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish11">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes12">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes13">
+          <div class="fish fish12">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish13">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish14">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish15">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+        <div class="fishGroup fishes14">
+          <div class="fish fish3">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish4">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish5">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+         <div class="fishGroup fishes15">
+          <div class="fish fish1">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+          <div class="fish fish2">
+            <img src="./images/fish.png" alt="물고기 이미지" />
+          </div>
+        </div>
+      </div>
+      <div class="bubbles skillBubble">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="bubbles projectsBubble3">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="whale whale03">
+        <img src="./images/whale.png" alt="고래 이미지" />
+      </div>
+      <div class="inner">
+        <div class="contactBox">
+          <h1>Contact</h1>
+          <p>Thank you!</p>
+          <div class="staticLayer">
+            <div class="palm">
+              <img src="./images/palm.png" alt="야자수 이미지" />
+            </div>
+            <div class="bottle">
+              <img src="./images/memoinBottle.png" alt="병 이미지" />
+            </div>
+            <div class="commentBox">
+              <div class="cloud">
+                <img src="./images/coment.png" alt="말풍선 이미지" />
+                <div class="cloudTxt">
+                  <p>
+                    <i class="fa-regular fa-envelope"></i>
+                    byj622@naver.com
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-phone"></i>
+                    byj622@naver.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rainLayer">
+            <div class="star star1">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star2">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star3">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star4">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star5">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star6">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star7">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star8">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star9">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star10">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star11">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star12">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star13">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star14">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star15">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star16">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star17">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star18">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star19">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="star star20">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+          </div>
+          <div class="groundLayer">
+            <div class="starPile Down1">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down2">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down3">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down4">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down5">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down6">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down7">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down8">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down9">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down10">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down11">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down12">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down13">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down14">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down15">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down16">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down17">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down18">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down19">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down20">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down21">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down22">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down23">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down24">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down25">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down26">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down27">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down28">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down29">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down30">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down31">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down32">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down33">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down34">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+            <div class="starPile Down35">
+              <img src="./images/Star.png" alt="불가사리 이미지" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Copyright 2026. Web portfolio-- by YunJu Bae</p>
+    </footer>
+  </body>
+</html>
