@@ -119,10 +119,7 @@ section {
   display: inline-block;
   font-size: 20px;
   text-decoration: none;
-
-  /* 기본 글씨 색 */
   color: #ffffff;
-
   background: linear-gradient(
     to top,
     #0d3b66 0%,
@@ -130,14 +127,11 @@ section {
     #3ba3c7 70%,
     #ffffff 100%
   );
-
   background-size: 100% 200%;
   background-position: 0 100%;
-
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-
   transition: background-position 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -368,7 +362,7 @@ section {
 .projects .projectsBox {
   min-height: 800px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.367);
   border: 1px solid rgba(255, 255, 255, 0.973);
   box-shadow:
     0 10px 40px rgba(0, 0, 0, 0.15),
@@ -377,36 +371,6 @@ section {
   overflow: hidden;
 }
 
-.about .aboutBox::before,
-.skills .inner::before,
-.projects .projectsBox::before {
-  content: "";
-  position: absolute;
-  top: -60%;
-  left: -60%;
-  width: 220%;
-  height: 220%;
-  background:
-    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.4), transparent 55%),
-    radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0.28), transparent 60%);
-  opacity: 0.5;
-}
-
-.about .aboutBox::after,
-.skills .inner::after,
-.projects .projectsBox::after {
-  content: "";
-  position: absolute;
-  top: -10%;
-  left: -10%;
-  width: 120%;
-  height: 120%;
-  pointer-events: none;
-
-  background: linear-gradient(135deg, rgba(255,255,255,0.2), transparent 60%);
-  opacity: 0.7;
-  filter: blur(20px);
-}
 
 .aboutBox h1 {
   background: linear-gradient(to top, #2b7ad4, #4bb4ec, #57cdf1);
@@ -426,7 +390,7 @@ section {
 
 .about .about_contents .left_pic {
   width: 400px;
-  height: 350px;
+  height: 500px;
   border-radius: 10px;
   border: 3px solid #fff;
   box-sizing: border-box;
