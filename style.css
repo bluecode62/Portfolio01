@@ -1204,11 +1204,33 @@ section {
   background-image: url("./images/project03.jpg");
 }
 .projects .siteItem .picPro04 {
-  background-image: url("./images/prepare.jpg");
+  background-image: url("./images/subway.png");
 }
 
 .projects .siteItem .buttonList02 {
   margin-top: 30px;
+}
+
+.projects .siteItem.comingSoon {
+  position: relative;
+  opacity: 0.6;
+}
+
+.projects .siteItem.comingSoon::after {
+  content: "Coming Soon";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 320px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .projects .projectsFishWrapper {
