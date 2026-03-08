@@ -507,7 +507,7 @@ section {
 }
 .about .aboutFishWrapper .fishes02 {
   left: 15%;
-  bottom: 600px;
+  bottom: 400px;
 }
 .about .aboutFishWrapper .fishes03 {
   left: 25%;
@@ -549,10 +549,6 @@ section {
 }
 .about .aboutFishWrapper .fishes012 {
   bottom: 750px;
-  animation: swimRight 10s linear infinite;
-}
-.about .aboutFishWrapper .fishes04 {
-  bottom: 950px;
   animation: swimRight 10s linear infinite;
 }
 @keyframes swimRight {
@@ -1428,6 +1424,7 @@ section {
 .contactBox .staticLayer .commentBox .cloud .cloudTxt p {
   font-size: 25px;
   padding: 10px 0;
+  text-align: left;
 }
 .contactBox .rainLayer {
   position: absolute;
