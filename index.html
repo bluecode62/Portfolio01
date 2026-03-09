@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -812,10 +812,10 @@
                       >(PC)페이지네이션/필터링 정렬/수량제한&개수가격/
                     </span>
                     <p>리뷰&문의 작성/로그인/회원가입</p>
+                    <p>(모바일)모바일 슬라이드메뉴 & 아코디언 네비게이션</p>
                     <p>
-                      (모바일)모바일 슬라이드메뉴 & 아코디언 네비게이션
+                      카테고리 상품 분류 UI/카테고리 기반 페이지네이션(API가정)
                     </p>
-                    <p>카테고리 상품 분류 UI/카테고리 기반 페이지네이션(API가정)</p>
                     <p>스크롤 기반 구매 UI 노출 & 장바구니 수량 관리</p>
                   </div>
                 </div>
@@ -830,6 +830,10 @@
                   <li>
                     <a
                       href="https://bluecode62.github.io/mobilePetshop/"
+                      onclick="
+                        petMobile();
+                        return false;
+                      "
                       target="_blank"
                       >Mobile</a
                     >
@@ -872,7 +876,8 @@
                   <span class="leftTag">주요 구현:</span>
                   <div class="moreBox">
                     <span class="rightTxt"
-                      >메인배너 슬라이드/반응형 가로 스크롤 메뉴/반응형 더보기 버튼
+                      >메인배너 슬라이드/반응형 가로 스크롤 메뉴/반응형 더보기
+                      버튼
                     </span>
                     <p>체크박스 필터링/스크롤 기반 구매창 노출 및 수량계산</p>
                   </div>
@@ -881,6 +886,10 @@
                   <li>
                     <a
                       href="https://bluecode62.github.io/cafe-responsive-web/"
+                      onclick="
+                        cafeMobile();
+                        return false;
+                      "
                       target="_blank"
                       >Site</a
                     >
@@ -954,13 +963,17 @@
                     >
                   </li>
                   <li>
-                    <a href="https://www.notion.so/319a0a91c036800ca171c870ddbcb508?source=copy_link" target="_blank">기획</a>
+                    <a
+                      href="https://www.notion.so/319a0a91c036800ca171c870ddbcb508?source=copy_link"
+                      target="_blank"
+                      >기획</a
+                    >
                   </li>
                 </ul>
               </div>
             </div>
             <!--프로젝트03-->
-            <div class="siteItem comingSoon">
+            <!-- <div class="siteItem comingSoon">
               <div class="left_pic picPro04"></div>
               <div class="right_txt">
                 <h2>써브웨이 리액트 키오스크 (개인)</h2>
@@ -990,7 +1003,7 @@
                   <li class="disabled">
                     <a href="#!">Coming Soon</a>
                   </li>
-                  <!-- <li>
+                  <li>
                     <a href="#!">PC</a>
                   </li>
                   <li>
@@ -998,10 +1011,10 @@
                   </li>
                   <li>
                     <a href="#!">기획</a>
-                  </li> -->
+                  </li>
                 </ul>
               </div>
-            </div>
+            </div> -->
             <!--프로젝트04-->
           </div>
           <i class="fa-solid fa-chevron-right nextBtn"></i>
@@ -1403,4 +1416,21 @@
       <p>Copyright 2026. Web portfolio-- by YunJu Bae</p>
     </footer>
   </body>
+
+  <script>
+    function petMobile() {
+      window.open(
+        "https://bluecode62.github.io/mobilePetshop/",
+        "mobileWindow",
+        "width=425,height=800",
+      );
+    }
+    function cafeMobile() {
+      window.open(
+        "https://bluecode62.github.io/cafe-responsive-web/",
+        "mobileWindow",
+        "width=425,height=800",
+      )
+    }
+  </script>
 </html>

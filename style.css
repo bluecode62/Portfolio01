@@ -66,7 +66,7 @@ img {
 
 section {
   position: relative;
-  min-height: 100svh;
+  min-height: 80svh;
 }
 
 .inner {
@@ -360,7 +360,6 @@ section {
 .about .aboutBox,
 .skills .inner,
 .projects .projectsBox {
-  min-height: 800px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.367);
   border: 1px solid rgba(255, 255, 255, 0.973);
@@ -370,7 +369,10 @@ section {
   border-radius: 10px;
   overflow: hidden;
 }
-
+.projects .projectsBox {
+  min-height: 800px;
+  margin-bottom: 80px;
+}
 
 .aboutBox h1 {
   background: linear-gradient(to top, #2b7ad4, #4bb4ec, #57cdf1);
@@ -385,7 +387,7 @@ section {
   font-weight: 600;
   display: flex;
   gap: 30px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .about .about_contents .left_pic {
@@ -398,8 +400,8 @@ section {
 }
 
 .about .about_contents .right_info {
-  max-width: 700px;
-  line-height: 2rem;
+  max-width: 660px;
+  line-height: 1.8rem;
   flex: 1;
 }
 .about .about_contents .right_info .intro {
@@ -681,7 +683,6 @@ section {
 .skills .skillsBox {
   display: flex;
   gap: 20px;
-  margin: 50px 0;
 }
 .skillsBox .skillsList {
   display: flex;
@@ -690,29 +691,29 @@ section {
   margin: 10px 0;
 }
 .skillsBox .skillsList .skillsItem {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   background-color: #fff;
   display: flex;
   align-items: center;
 }
 .skillsBox .skillsList .skillsItem .skil_img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto;
 }
 .skillsBox .skillsList .skillsItem .skil_img img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  margin: 0 auto;
   object-fit: contain;
 }
 .skillsBox .skillsList .skill_text {
-  width: 240px;
+  width: 250px;
   color: #fff;
 }
 .skillsBox .skillsList .skill_text .skil_icon {
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 .skillsBox .skillsList .skill_text .experience {
