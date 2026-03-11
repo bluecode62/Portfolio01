@@ -774,11 +774,11 @@ section {
 }
 .skills .skillsFishWrapper .fishes01 {
   transform: scaleX(-1);
-  left: 10%;
+  left: 1%;
   bottom: 200px;
 }
 .skills .skillsFishWrapper .fishes02 {
-  left: 15%;
+  left: 1%;
   bottom: 650px;
   transform: scaleX(-1);
 }
@@ -797,7 +797,7 @@ section {
   bottom: 700px;
 }
 .skills .skillsFishWrapper .fishes06 {
-  left: 10%;
+  left: 3%;
   bottom: 400px;
   transform: scaleX(-1);
 }

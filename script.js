@@ -233,23 +233,6 @@ gsap.to(".contact p", {
   delay: 0.5,
 });
 
-// gsap.fromTo(".whale",
-//   { x: "-20vw", y: "20vh", rotate: 0, opacity: 0, scale: 0.5 },
-//   {
-//     x: "-40vw",
-//     y: "20vh",
-//     rotate: -45,
-//     opacity: 1,
-//     scale: 1,
-//     scrollTrigger: {
-//       trigger: ".skills",
-//       start: "top 70%", // 화면 하단에 skills가 닿으면 시작
-//       end: "bottom 70%", // 섹션 중간 정도에 도달하면 끝
-//       scrub: 1.0
-//     }
-//   }
-// );
-
 gsap.set(".whale01", {
   x: 0,
   y: "-40vh",
@@ -276,9 +259,9 @@ gsap.to(".whale01", {
 let swim = gsap.timeline({
   scrollTrigger: {
     trigger: ".skills",
-    start: "top 30%",
-    end: "bottom 90%", // 섹션 끝까지
-    scrub: 1.2,
+    start: "top 50%",
+    end: "bottom 95%", // 섹션 끝까지
+    scrub: 1.6,
   },
 });
 
@@ -295,7 +278,7 @@ swim
   .to(".whale01", {
     x: "-50vw", // 화면 왼쪽 밖으로 충분히 이동
     y: "25vh", // 살짝 위로 떠서 자연스러운 헤엄 느낌
-    rotate: 70, // 꼬리 회전
+    rotate: 80, // 꼬리 회전
     ease: "sine.inOut",
   });
 
@@ -336,16 +319,16 @@ whaleTimeline.to(".whale02", {
   rotate: 20,
   scaleX: -1,  
   ease: "power1.out",
-  duration: 9,
+  duration: 10,
 });
 
 // 오른쪽 화면 밖으로 퇴장
 whaleTimeline.to(".whale02", {
   x: "120vw",
-  y: "70vh",
-  rotate: 30,
-  ease: "power1.out",
-  duration: 3,
+  y: "110vh",
+  rotate: 40,
+  ease: "sine.inOut",
+  duration: 5,
 });
 
 gsap.set(".whale03", {
@@ -374,7 +357,7 @@ contactTimeline.to(".whale03", {
   opacity: 1,
   rotate: -40,      
   ease: "sine.out",
-  duration: 3,
+  duration: 5,
 });
 
 // 잠시 멈추는 느낌
@@ -383,15 +366,15 @@ contactTimeline.to(".whale03", {
   y: "40vh",
   rotate: 40,
   ease: "sine.out",
-  duration: 3,
+  duration: 5,
 });
 
 // 다시 위로 올라가면서 왼쪽 위 스크린 안으로 이동
 contactTimeline.to(".whale03", {
-  x: "-10vw",   // 왼쪽 화면 밖에서 스크린 안으로
-  y: "-60vh",
+  x: "-20vw",   // 왼쪽 화면 밖에서 스크린 안으로
+  y: "-70vh",
   rotate: 70,  // 위로 향하는 방향
   ease: "power3.out",
-  duration: 3,
+  duration: 5,
 });
 
